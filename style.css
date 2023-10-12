@@ -103,4 +103,29 @@ header {
   font-style: italic;
   font-weight: 700;
   font-family: sans-serif;
+  color: #59595a;
+}
+.food-price {
+  font-weight: 500;
+}
+.add-to-cart-button {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 15px;
+  width: 50%;
+  height: 40px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #eeb44f;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  text-shadow: inset 0px 1px 0px #cc9f52;
+  background: linear-gradient(rgb(241, 191, 64), #fb9e25);
+}
+.add-to-cart-button:hover {
+  background: linear-gradient(#fb9e25, rgb(241, 191, 64));
 }
