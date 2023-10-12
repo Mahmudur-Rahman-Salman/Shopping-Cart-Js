@@ -87,6 +87,10 @@ header {
 }
 .food-img {
   width: 100%;
+  transition: 0.4s;
+}
+.food-img:hover {
+  transform: scale(1.5);
 }
 .food-content {
   display: grid;
