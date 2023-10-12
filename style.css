@@ -13,6 +13,9 @@ Bold 700 Italic */
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body {
+  background-color: rgb(100, 98, 98);
+}
 header {
   background-color: black;
   color: white;
@@ -57,23 +60,43 @@ header {
 .fa-cart-shopping {
   font-size: 1.3rem;
 }
-
-.container{
+.container-heading {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px;
+  color: white;
+}
+.container-heading:hover {
+  color: rgb(241, 191, 64);
+}
+.container {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 4rem;
 }
-.picture{
+.food-box {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 3px;
+}
+.picture {
   overflow: hidden;
 }
-.food-img{
+.food-img {
   width: 100%;
 }
-.food-content{
+.food-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
+}
+.food-title {
+  font-style: italic;
+  font-weight: 700;
+  font-family: sans-serif;
 }
